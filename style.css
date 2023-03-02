@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    border-radius: 15px;
+    height: 420px;
+    width: 600px;
+    display: flex;
+    font-family: 'Hanken Grotesk', sans-serif;
+    border-radius: 30px;
+}
+.firsthalf {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+}
+.firsthalf > p {
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+}
+.firsthalf > h4 {
+    padding-top: 5px;
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+}
+.great {
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.circle {
+    background-image: linear-gradient(rgb(65, 45, 179), hsla(241, 72%, 46%, 0)) ;
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+.hundred {
+    color: rgb(144, 142, 230);
+}
+.circle > .seventysix{
+    font-weight: 800;
+    font-size: 60px;
+  }
+.secondhalf {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 20px;
+}
+.summary {
+    padding: 14px;
+}
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.1);
+}
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.1);
+}
+.verbal {
+    background-color: hsla(166, 100%, 37%, 0.1);
+}
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
