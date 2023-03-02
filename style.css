@@ -142,3 +142,17 @@ body {
     color: hsla(234, 85%, 45%, 0.8);
     font-weight: 800;
 }
+button {
+    border:none;
+    color: white;
+    font-weight: 800;
+    font-size: 14px;
+    width: 220px;
+    height: 40px;
+    align-self: center;
+    border-radius: 20px;
+    background-color: hsl(224, 30%, 27%);
+}
+button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
